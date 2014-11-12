@@ -1,9 +1,10 @@
-package com.example.androidsimpleadapter;
+package com.example.android.simpleadapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import android.R.animator;
+import com.example.androidsimpleadapter.R;
+
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -49,9 +50,6 @@ public class ExampleSimpleAdapter extends ListActivity {
     	
     }
     
-    
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
